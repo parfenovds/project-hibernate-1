@@ -4,16 +4,14 @@ import com.game.entity.Player;
 import com.game.entity.Profession;
 import com.game.entity.Race;
 import com.game.repository.IPlayerRepository;
+import java.util.Date;
+import java.util.List;
+import static java.util.Objects.isNull;
+import static java.util.Objects.nonNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
-
-import java.util.Date;
-import java.util.List;
-
-import static java.util.Objects.isNull;
-import static java.util.Objects.nonNull;
 
 @Service
 public class PlayerService {

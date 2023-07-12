@@ -3,14 +3,13 @@ package com.game.repository;
 import com.game.entity.Player;
 import com.game.entity.Profession;
 import com.game.entity.Race;
-import org.springframework.stereotype.Repository;
-
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Repository;
 
 @Repository(value = "memory")
 public class PlayerRepositoryMemory implements IPlayerRepository {
